@@ -91,7 +91,15 @@ const LogsInputCard = ({ updateAnomalies }) => {
           <CardDescription>
             Please input your list of logs in the textarea below:
           </CardDescription>
-          <CardAction>
+          <CardAction className={'flex gap-2'}>
+            <Button
+              variant='outline'
+              className='text-teal-600 hover:text-teal-700 cursor-pointer'
+              onClick={() => window.open('http://13.203.97.225:8501', '_blank')}
+              disabled={isAnalyzingLogs}
+            >
+              Interactive Log Analysis
+            </Button>
             <Button
               variant='outline'
               className='text-teal-600 hover:text-teal-700 cursor-pointer'
