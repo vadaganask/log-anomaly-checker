@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "is_anomaly": true,
+  "confidence": 0.9999969674474869,
+  "average_score": 0.9999969674474869,
+  "window_predictions": [true],
+  "window_scores": [0.9999969674474869],
+  "sequence_length": 10,
+  "windows_analyzed": 1,
+  "processed_sequence_ids": [0, 0, 0, 0, 0, 0, 18, 0, 0, 0],
+  "message": null
+}
